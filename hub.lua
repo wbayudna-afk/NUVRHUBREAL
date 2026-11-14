@@ -64,3 +64,23 @@ local InfYieldButton = UniversalTab:CreateButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end
 })
+
+local GamesTab = Window:CreateTab("Games", 4483362458)
+
+local BABFTSection = GamesTab:CreateSection("BABFT")
+
+local BABFTButton = GamesTab:CreateButton({
+    Name = "Load BABFT",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/wbayudna-afk/NUVRHUBREAL/main/BABFT.lua'))()
+    end
+})
+
+local TheLostFrontSection = GamesTab:CreateSection("TheLostFront")
+
+local TheLostFrontButton = GamesTab:CreateButton({
+    Name = "Load TheLostFront",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/wbayudna-afk/NUVRHUBREAL/main/TheLostFront.lua'))()
+    end
+})
